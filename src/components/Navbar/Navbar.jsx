@@ -11,9 +11,15 @@ function Navbar() {
             <img src="google-keep-logo.png" height="100px" width="100px" />
             <span>Keep</span>
           </div>
-          <div className="search-section">
-            <input type="text" placeholder="Search" />
-          </div>
+        </div>
+        <div className="search-section">
+          <input type="text" placeholder="Search" />
+        </div>
+        <div>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
         </div>
       </div>
     </header>
