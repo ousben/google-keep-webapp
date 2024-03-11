@@ -5,7 +5,16 @@ function Navbar() {
   return (
     <header>
       <div className="navbar">
-        <img src="google-keep-logo.png" height="100px" width="100px" />
+        <div className="logo-all-section">
+          <i></i>
+          <div className="logo-section">
+            <img src="google-keep-logo.png" height="100px" width="100px" />
+            <span>Keep</span>
+          </div>
+          <div className="search-section">
+            <input type="text" placeholder="Search" />
+          </div>
+        </div>
       </div>
     </header>
   );
