@@ -1,0 +1,13 @@
+.small-note {
+  color: #ffffff;
+  background-color: #202124;
+  height: 30%;
+  width: 20%;
+}
+
+.large-note {
+  color: #ffffff;
+  background-color: #202124;
+  height: 430px;
+  width: 600px;
+}
