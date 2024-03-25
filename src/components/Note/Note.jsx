@@ -12,7 +12,7 @@ function Note() {
   }
 
   return (
-    <div className={size} onClick={handleClick}>
+    <div className={size + " note"} onClick={handleClick}>
       <input type="text" readOnly={readOnlyValue} />
       <textarea id="textarea" readOnly={readOnlyValue}>{text}</textarea>
     </div>

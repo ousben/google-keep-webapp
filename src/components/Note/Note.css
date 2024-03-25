@@ -1,23 +1,43 @@
-.small-note {
+.note {
+  display: flex;
+  flex-direction: column;
   color: #ffffff;
   background-color: #202124;
   border: 1px solid #5f6368;
   border-radius: 8px;
+}
+
+.small-note {
   height: 481px;
   width: 240px;
-  padding: 16px;
   margin: 16px;
 }
 
 .large-note {
-  color: #ffffff;
-  background-color: #202124;
-  border: 1px solid #5f6368;
-  border-radius: 8px;
-  padding: 16px;
   height: 430px;
   width: 600px;
   position: absolute;
   top: 25%;
   left: 25%;
+}
+
+.note > textarea {
+  color: #ffffff;
+  background-color: #202124;
+  border: none;
+  outline: none;
+  flex: 1;
+  resize: none;
+  padding: 12px 16px 12px 16px;
+  border-radius: 8px;
+}
+
+.note > input {
+  background-color: #202124;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  min-height: 38px;
+  padding: 16px 16px 0 16px;
+  border-radius: 8px;
 }
