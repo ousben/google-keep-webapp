@@ -3,8 +3,8 @@ import "./AddToDo.css";
 
 function AddToDo() {
   return (
-    <div>
-      
+    <div className="search-div">
+      <input />
     </div>
   );
 }
